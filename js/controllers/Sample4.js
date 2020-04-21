@@ -1,5 +1,5 @@
+//昇順
 let array = [50,40,100,80,10];
-
 
 function arraySort(array) {
     for(let i = 0; i < array.length; i++) {
@@ -16,3 +16,7 @@ function arraySort(array) {
     return array; 
 }
 console.log(arraySort(array));
+
+
+
+array.sort();
